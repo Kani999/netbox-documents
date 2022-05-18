@@ -71,8 +71,9 @@ FIELD_CHOICES = {
  
 
 ### Apply Database Migrations
-Apply database migrations with Netbox `manage.py`:
+Apply database migrations with Netbox `manage.py`(default Path /opt/netbox/netbox):
 ```
+(venv) $ cd /opt/netbox/netbox
 (venv) $ python manage.py migrate
 ```
 
